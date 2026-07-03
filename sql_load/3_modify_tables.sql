@@ -51,6 +51,12 @@ SELECT COUNT(*) FROM skills_dim;
 SELECT COUNT(*) FROM job_postings_fact;
 SELECT COUNT(*) FROM skills_job_dim;
 
+
+SELECT * FROM company_dim LIMIT 10;
+SELECT* FROM skills_dim LIMIT 10;
+SELECT * FROM job_postings_fact LIMIT 10;
+SELECT * FROM skills_job_dim LIMIT 10;
+
 SELECT job_posted_date
 FROM job_postings_fact
 LIMIT 10;
